@@ -196,8 +196,8 @@ padding-top: 188px;
     max-width: calc((100% - 3 * 40px) / 4);
 }
 
-.abaut-list:first-child{
-    width: calc((100% - 72px) / 4);
+.abaut-list:first-child {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .abaut-title{
