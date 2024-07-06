@@ -252,7 +252,7 @@ padding-top: 188px;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
-    margin-top: 32px;
+    
     
 }
 .team-text{
@@ -262,7 +262,11 @@ padding-top: 188px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 32px;
+    
+}
+
+.team-list-text{
+    padding: 32px 0;
 }
 
 .team-container{
