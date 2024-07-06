@@ -187,7 +187,7 @@ address{
 }
 
 .abaut-list{
-    max-width: 264px;
+    max-width: calc((100% - 3 * 40px) / 4);
 }
 
 .abaut-title{
