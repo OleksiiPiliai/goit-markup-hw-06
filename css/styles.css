@@ -15,6 +15,10 @@ p,h1,h2,h3,h4,h5,h6{
     padding: 0;
 }
 
+img{
+    display: block;
+}
+
 .container{
     max-width: 1158px;
     padding: 0 15px;
@@ -28,7 +32,7 @@ ul,ol{
 
 /*********************** header ***********************/
 .header {
-    
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container{
@@ -122,6 +126,8 @@ address{
 
 .hero {
  background-color: #2E2F42;
+padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-tittle {
     color: #ffffff;
@@ -149,6 +155,7 @@ address{
     margin: 0 auto;
     margin-top: 48px;
     border: none;
+    min-width: 169px
 }
 .hero-button:hover {
     background-color: #404BBF;
@@ -159,8 +166,7 @@ address{
 }
 
 .hero-container{
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
 }
 
 /*********************** section-abaut ***********************/
@@ -300,6 +306,7 @@ address{
 /*********************** footer ***********************/
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .footer-link{
    color: #4D5AE5;
@@ -312,6 +319,7 @@ address{
     text-transform: uppercase;
     display: block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .footer-span{
     color: #F4F4FD;
@@ -329,5 +337,5 @@ address{
 }
 
 .footer-container{
-  padding: 100px 0;
+  
 }
