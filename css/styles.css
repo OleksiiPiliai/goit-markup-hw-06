@@ -196,8 +196,12 @@ padding-top: 188px;
     max-width: calc((100% - 3 * 40px) / 4);
 }
 
+.abaut-list:first-child{
+    width: calc((100% - 72px) / 4);
+}
+
 .abaut-title{
-    opacity: 0;
+    visibility: hidden;
 }
 
 .abaut-container{
@@ -213,6 +217,7 @@ padding-top: 188px;
 /*********************** section-team ***********************/
 .team{
     background-color:#F4F4FD;
+    padding: 120px 0;
 }
 .team-title{
     color: #2E2F42;
@@ -234,6 +239,11 @@ padding-top: 188px;
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
 }
+
+.team-list:first-child {
+    width: calc((100% - 72px) / 4);
+}
+
 .team-subtitle{
     color: #2E2F42;
     font-size: 20px;
@@ -256,7 +266,7 @@ padding-top: 188px;
 }
 
 .team-container{
-    padding: 120px 0;
+    
 }
 
 
