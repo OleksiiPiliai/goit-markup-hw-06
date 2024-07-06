@@ -10,14 +10,41 @@ body{
     background-color: #fff;
     color: #434455;
 }
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul,ol{
+    padding: 0;
+    margin: 0;
+}
+
 /*********************** header ***********************/
 .header {
-    background-color: #E7E9FC;
+    
 }
-.navigation{}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+        align-items: center;
+        
+}
 
 address{
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
 }
 
 .header-logo {
@@ -29,11 +56,26 @@ address{
     line-height: 21px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17
+    line-height: 1.17;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 .logo-web-span {
     color: #2E2F42;
+}
+
+.header-item{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-item-address{
+    display: flex;
+        align-items: center;
+        gap: 40px;
+    
 }
 
 .header-link {
@@ -42,6 +84,8 @@ address{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: block;
+        padding: 24px 0;
 }
 .header-link:hover {
     color: #404BBF;
@@ -61,6 +105,8 @@ address{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+        padding: 24px 0;
 }
 .address-link:hover {
     color: #404BBF;
@@ -83,6 +129,8 @@ address{
     font-size: 56px;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .hero-button {
@@ -94,6 +142,13 @@ address{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    border: none;
 }
 .hero-button:hover {
     background-color: #404BBF;
@@ -102,6 +157,12 @@ address{
 .hero-button:focus {
     background-color: #404BBF;
 }
+
+.hero-container{
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 /*********************** section-abaut ***********************/
 .abaut-subtitle{
     font-size: 20px;
@@ -109,6 +170,7 @@ address{
     line-height: 24px;
     letter-spacing: 0.02em; 
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .abaut-text{
     font-size: 16px;
@@ -117,6 +179,27 @@ address{
     letter-spacing: 0.02em;
     color: #434455 ;
 }
+
+.abaut-item{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.abaut-list{
+    max-width: 264px;
+}
+
+.abaut-title{
+    opacity: 0;
+}
+
+.abaut-container{
+    max-width: 1158px;
+    padding: 120px 0;
+   
+}
+
 /*********************** section-team ***********************/
 .team{
     background-color:#F4F4FD;
@@ -129,9 +212,17 @@ address{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
+
+.team-item{
+   display: flex;
+   gap: 24px;
+}
+
 .team-list{
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
 }
 .team-subtitle{
     color: #2E2F42;
@@ -139,6 +230,10 @@ address{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 32px;
+    
 }
 .team-text{
     color: #434455;
@@ -146,11 +241,33 @@ address{
      font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 32px;
 }
+
+.team-container{
+    padding: 120px 0;
+}
+
+
+
+
 /*********************** portfolio ***********************/
 .portfolio{
-    background-color: #E7E9FC;
+    
 }
+
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.portfolio-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-title{
     color: #2E2F42;
     font-size: 36px;
@@ -159,6 +276,7 @@ address{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .portfolio-subtitle{
     color: #2E2F42;
@@ -166,6 +284,9 @@ address{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    padding-left: 16px;padding-top: 32px;
+    
 }
 .portfolio-text{
     color: #434455;
@@ -173,6 +294,8 @@ address{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 /*********************** footer ***********************/
 .footer{
@@ -187,9 +310,12 @@ address{
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
+    display: block;
+    margin-bottom: 16px;
 }
 .footer-span{
     color: #F4F4FD;
+    
 }
 .footer-text{
     color: #F4F4FD;
@@ -198,5 +324,10 @@ address{
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    line-height: 1.5
+    line-height: 1.5;
+    max-width: 264px;
+}
+
+.footer-container{
+  padding: 100px 0;
 }
