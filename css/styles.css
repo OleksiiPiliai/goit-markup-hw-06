@@ -88,6 +88,22 @@ address{
     gap: 40px;
 }
 
+.header-link.current {
+position: relative;
+color: #404BBF;
+}
+
+.header-link.current::before {
+content: '';
+position: absolute;
+left: 0;
+bottom: -1px;
+width: 100%;
+height: 4px;
+background-color: #4D5AE5;
+border-radius: 4px;
+}
+
 .header-item-address{
     display: flex;
         align-items: center;
@@ -138,7 +154,13 @@ address{
 /*********************** hero ***********************/
 
 .hero {
- background-color: #2E2F42;
+ background-image: linear-gradient(
+    to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+ ),
+ url(../images/bi1.jpg)
+    ;
 padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -190,6 +212,7 @@ padding-top: 188px;
     letter-spacing: 0.02em; 
     color: #2E2F42;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 .abaut-text{
     font-size: 16px;
@@ -209,6 +232,10 @@ padding-top: 188px;
     max-width: calc((100% - 3 * 24px) / 4);
 }
 
+.abaut-icon{
+    
+}
+
 
 
 .abaut-title{
@@ -223,6 +250,19 @@ padding-top: 188px;
 
 .abaut{
     padding: 120px 0;
+}
+
+.abaut-icon{
+    
+    max-width: 100%;
+    height: 112px;
+    background-color: rgba(244, 244, 253, 1);
+    box-sizing: border-box;
+    border: 1px solid rgba(142, 143, 153, 1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*********************** section-team ***********************/
