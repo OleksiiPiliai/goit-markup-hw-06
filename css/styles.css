@@ -212,7 +212,7 @@ padding-top: 188px;
     letter-spacing: 0.02em; 
     color: #2E2F42;
     margin-bottom: 8px;
-    margin-top: 8px;
+    
 }
 .abaut-text{
     font-size: 16px;
@@ -263,6 +263,7 @@ padding-top: 188px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 8px;
 }
 
 /*********************** section-team ***********************/
@@ -313,6 +314,7 @@ padding-top: 188px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
     
 }
 
@@ -322,6 +324,21 @@ padding-top: 188px;
 
 .team-container{
     
+}
+
+.team-list-icon{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-soc-list{
+    fill: rgba(77, 90, 229, 1);
+}
+
+.icon-soc-list:hover {
+    fill: rgba(64, 75, 191, 1);
 }
 
 
