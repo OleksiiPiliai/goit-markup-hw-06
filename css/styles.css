@@ -458,7 +458,7 @@ padding-top: 188px;
 .footer{
     background-color: #2E2F42;
     padding: 100px 0;
-    display: flex;
+    
     
 }
 .footer-link{
@@ -490,7 +490,8 @@ padding-top: 188px;
 }
 
 .footer-container{
-  
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-soc-text{
@@ -505,8 +506,8 @@ padding-top: 188px;
         margin-bottom: 16px;
 }
 
-.footer-icon-container{
-    
+.footer-container-logo{
+    margin-right: 120px;
 }
 
 .footer-icon-list{
