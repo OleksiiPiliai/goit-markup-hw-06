@@ -337,7 +337,7 @@ padding-top: 188px;
 }
 
 .team-soc-link:hover{
-    background-color: rgba(64, 75, 191, 1);
+    background-color: #404bbf;
 }
 
 .team-subtitle{
@@ -526,7 +526,8 @@ padding-top: 188px;
 }
 
 .svg-soc-item-footer{
-    height: 40px;
+    
+    fill: #f4f4fd;
 }
 
 .footer-soc-link{
@@ -537,6 +538,7 @@ padding-top: 188px;
     align-items: center;
 background-color: rgba(77, 90, 229, 1);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-item{
@@ -545,6 +547,6 @@ background-color: rgba(77, 90, 229, 1);
 }
 
 .footer-soc-link:hover{
-background-color: rgba(49, 208, 170, 1);
+background-color: #31d0aa;
 }
 
