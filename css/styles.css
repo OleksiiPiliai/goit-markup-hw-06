@@ -631,9 +631,9 @@ font-family: Roboto;
     fill: #fff;
 }
 
-.ebutton{
+.footer-form{
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 
