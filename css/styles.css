@@ -596,6 +596,12 @@ background-color: #31d0aa;
     margin-left: 80px;
 }
 
+.footer-input{
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 
 .footer-input::placeholder{
 color: rgba(255, 255, 255, 0.6);
@@ -608,12 +614,12 @@ font-family: Roboto;
 }
 
 .button-footer{
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: rgba(77, 90, 229, 1);
     border-radius: 4px;
     color: #fff;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -625,10 +631,12 @@ font-family: Roboto;
         align-items: center;
         justify-content: center;
         gap: 16px;
+        cursor: pointer;
 }
 
 .subscribe-icon{
     fill: #fff;
+    margin-left: 16px;
 }
 
 .footer-form{
