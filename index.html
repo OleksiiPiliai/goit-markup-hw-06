@@ -308,7 +308,7 @@
                     <div class=" input-svg-box">
                         <input 
                         type="text" 
-                        class="input-modal user-name"
+                        class="input-modal"
                         id="user-name"
                         name="user-name">
                             <svg class="icon-input" width="18" height="24">
@@ -317,32 +317,46 @@
                     </div>
                 </div>
                 <div class="input-box">
-                    <label class="label-modal">Phone  
+                    <label 
+                    for="phone"
+                    class="label-modal">Phone  
                     </label>
                     <div class=" input-svg-box">
-                        <input type="tel" class="input-modal">
+                        <input 
+                        type="tel" 
+                        class="input-modal"
+                        id="phone"
+                        name="phone">
                             <svg class="icon-input" width="18" height="24">
                                 <use href="./images/icons.svg#icon-tel"></use>
                             </svg>
                     </div>
                 </div>
                 <div class="input-box">
-                    <label class="label-modal">Email
+                    <label 
+                    for="email"
+                    class="label-modal">Email
                     </label>
                     <div class=" input-svg-box">
-                        <input type="email" class="input-modal">
+                        <input 
+                        type="email" 
+                        class="input-modal"
+                        id="email"
+                        name="email">
                             <svg class="icon-input" width="18" height="24">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
                     </div>
                 </div>
-                <label class="label-modal"> Comment
-                    <textarea 
-                    class="area-modal" 
-                    name="label-modal" 
-                    id="label-modal"
-                    placeholder="Text input"></textarea>
-                </label>
+                <div class="textarea-box">
+                    <label class="label-modal"> Comment
+                        <textarea 
+                        class="area-modal" 
+                        name="label-modal" 
+                        id="label-modal"
+                        placeholder="Text input"></textarea>
+                    </label>
+                </div>
                 <div class="check-box">
                     <label>
                         <input type="checkbox" required>

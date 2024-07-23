@@ -742,7 +742,7 @@ font-family: Roboto;
 
 .input-modal:focus,
 :hover + .icon-input{
-    fill: rgba(77, 90, 229, 1);
+    fill: #4D5AE5;
 }
 
 .input-box{
@@ -755,7 +755,7 @@ margin-bottom: 8px;
     top: 50%;
     transform: translateY(-50%);
     left: 16px;
-    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -769,7 +769,7 @@ margin-bottom: 8px;
     margin-bottom: 16px;
 }
 
-.label-modal{
+.textarea-box{
         font-family: Roboto;
         font-size: 12px;
         font-weight: 400;
