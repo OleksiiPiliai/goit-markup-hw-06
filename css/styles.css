@@ -831,7 +831,7 @@ margin-bottom: 8px;
 }
 
 .check-text-link{
-    color: rgba(77, 90, 229, 1);
+    color: #4d5ae5;
     text-decoration: underline;
 }
 
@@ -844,6 +844,16 @@ margin-bottom: 8px;
 
 .form-modal{
     margin-bottom: 24px;
+}
+
+.chb-input {
+ visibility: hidden;
+}
+
+.chb-input:checked{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .btn-modal-send{

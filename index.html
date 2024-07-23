@@ -367,18 +367,21 @@
                     name="user-privacy"
                     id="user-privacy" 
                     required
-                    class="chb-input"
-                    visually-hidden>
+                    class="chb-input">
                     <label 
                     for="user-privacy"
                     class="label-checkbox">
                     I accept the terms and conditions of the
-                    <span class="span-checkbox"></span>
-                </label>
-                    <p class="check-text">I accept the terms and conditions of the <a class="check-text-link" href="">Privacy Policy</a></p>
+                    <span class="span-checkbox">
+                        <svg class="icon-ok" width="10" height="8">
+                            <use href="./images/icons.svg#icon-ok"></use>
+                        </svg>
+                    </span>
+                    <a class="check-text-link" href="">Privacy Policy</a>
+                    </label>
                 </div>
+                <button type="submit" class="btn-modal-send">Send</button>
             </form>
-            <button type="submit" class="btn-modal-send">Send</button>
         </div>
     </div>
 </body>
