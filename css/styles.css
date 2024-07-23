@@ -740,8 +740,7 @@ font-family: Roboto;
     border-color: rgba(77, 90, 229, 1);
 }
 
-.input-modal:focus,
-:hover + .icon-input{
+.input-modal:focus, :hover + .icon-input{
     fill: #4D5AE5;
 }
 
@@ -765,6 +764,8 @@ margin-bottom: 8px;
     letter-spacing: 0.04em;
     display: block;
     margin-bottom: 4px;
+    color: #8e8f99;
+
 }
 
 .area-modal{
@@ -798,7 +799,7 @@ margin-bottom: 8px;
         color: rgba(142, 143, 153, 1);
         line-height: 1.17;
         display: block;
-        margin-bottom: 4px;
+        margin-bottom: 16px;
 }
 
 .input-svg-box{
@@ -850,14 +851,14 @@ margin-bottom: 8px;
  visibility: hidden;
 }
 
-.chb-input:checked{
+.chb-input:checked + .icon-ok{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
 
 .btn-modal-send{
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border-radius: 4px;
     color: rgba(255, 255, 255, 1);
@@ -867,10 +868,12 @@ margin-bottom: 8px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.04em;
         text-align: center;
+        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
 }
