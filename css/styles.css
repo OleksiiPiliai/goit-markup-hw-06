@@ -851,7 +851,7 @@ margin-bottom: 8px;
  visibility: hidden;
 }
 
-.chb-input:checked + .icon-ok{
+.visually-hidden:checked + .span-checkbox{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
