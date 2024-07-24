@@ -814,7 +814,7 @@ margin-bottom: 8px;
         letter-spacing: 0.04em;
         text-align: left;
         line-height: 1.17;
-        color: #8e8f99;
+        color: #8e8f99;   
 }
 
 .span-checkbox{
@@ -847,11 +847,7 @@ margin-bottom: 8px;
     margin-bottom: 24px;
 }
 
-.chb-input {
- visibility: hidden;
-}
-
-.chb-input:checked + .span-checkbox{
+.modal-check:checked + .label-checkbox span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
