@@ -740,7 +740,11 @@ font-family: Roboto;
     border-color: rgba(77, 90, 229, 1);
 }
 
-.input-modal:focus, :hover + .icon-input{
+.input-modal:hover + .icon-input{
+    fill: #4D5AE5;
+}
+
+.input-modal:focus + .icon-input {
     fill: #4D5AE5;
 }
 
