@@ -608,19 +608,6 @@ h6 {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-box {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-
-.portfolio-box:hover .overlay {
-    transform: translateY(0%);
-}
-
-.portfolio-box:hover {
-    transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .portfolio-reverse-text {
     position: relative;
     overflow: hidden;
@@ -754,7 +741,11 @@ h6 {
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     opacity: 0.3;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.footer-form-input:focus{
+    border-color: #31d0aa;
 }
 
 .footer-form-input::placeholder {
@@ -780,6 +771,12 @@ h6 {
     background: #4d5ae5;
     fill: white;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+    background-color: #31d0aa;
 }
 
 .footer-btn-icon {
@@ -890,7 +887,7 @@ h6 {
 }
 
 .input-modal:focus,
-:hover {
+.input-modal:hover {
     border-color: rgba(77, 90, 229, 1);
 }
 
@@ -1309,6 +1306,19 @@ h6 {
     .portfolio-box {
         width: calc((100% - 48px) / 3);
     }
+
+.portfolio-box {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.portfolio-box:hover .overlay {
+    transform: translateY(0%);
+}
+
+.portfolio-box:hover {
+    transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
     .overlay {
         display: flex;

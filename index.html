@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
 </head>
-
 <body>
     <header class="header">
         <div class="container header-container">
@@ -48,70 +47,6 @@
                     <use href="./images/icons.svg#icon-Group"></use>
                 </svg>
             </button>
-        </div>
-        <div class="mob-menu is-open">
-            <div>
-                <button type="button" class="mob-btn-close">
-                    <svg class="mob-btn" width="8" height="8">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                </button>
-                <nav>
-                    <ul class="navigation-mob-menu">
-                        <li class="mob-menu-list">
-                            <a class="mob-item-link" href="./index.html">Studio</a>
-                        </li>
-                        <li class="mob-menu-list">
-                            <a class="mob-item-link" href="">Portfolio</a>
-                        </li>
-                        <li class="mob-menu-list">
-                            <a class="mob-item-link" href="">Contacts</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <ul class="mobil-adress-list">
-                    <li class="mobil-adress-item">
-                        <a class="mobil-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="mobil-adress-item">
-                        <a class="mobil-adress-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-                <ul class="mobil-soc">
-                    <li class="mobil-soc-list">
-                        <a href="https://instagram.com" class="mobil-soc-link">
-                            <svg class="mobil-icon" width="24" height="24">
-                                <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-instagram-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="mobil-soc-list">
-                        <a href="https://twitter.com" class="mobil-soc-link">
-                            <svg class="mobil-icon" width="24" height="24">
-                                <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-twitter-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="mobil-soc-list">
-                        <a href="https://facebook.com" class="mobil-soc-link">
-                            <svg class="mobil-icon" width="24" height="24">
-                                <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-facebook-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="mobil-soc-list">
-                        <a href="https://linkedin.com" class="mobil-soc-link">
-                            <svg class="mobil-icon" width="24" height="24">
-                                <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-linkedin-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </div>
         </div>
     </header>
     <main class="main">
@@ -181,7 +116,7 @@
                 <h2 class="header-team">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-list-about">
-                        <img class="team-list-images" srcset="./images/qx2.jpg, ./images/q.jpg" src="./images/q.jpg"
+                        <img class="team-list-images" srcset="./images/qx2.jpg 2x, ./images/q.jpg 1x" src="./images/q.jpg"
                             alt="photo" width="264" height="260" />
                         <div class="team-border">
                             <h3 class="team-list-header">Mark Guerrero</h3>
@@ -223,7 +158,7 @@
                         </div>
                     </li>
                     <li class="team-list-about">
-                        <img class="team-list-images" srcset="./images/wx2.jpg, ./images/w.jpg" src="./images/w.jpg"
+                        <img class="team-list-images" srcset="./images/wx2.jpg 2x, ./images/w.jpg 1x" src="./images/w.jpg"
                             alt="photo" width="264" height="260" />
                         <div class="team-border">
                             <h3 class="team-list-header">Tom Ford</h3>
@@ -265,7 +200,7 @@
                         </div>
                     </li>
                     <li class="team-list-about">
-                        <img class="team-list-images" srcset="./images/ex2.jpg, ./images/e.jpg" src="./images/e.jpg"
+                        <img class="team-list-images" srcset="./images/ex2.jpg 2x, ./images/e.jpg 1x" src="./images/e.jpg"
                             alt="photo" width="264" height="260" />
                         <div class="team-border">
                             <h3 class="team-list-header">Camila Garcia</h3>
@@ -307,7 +242,7 @@
                         </div>
                     </li>
                     <li class="team-list-about">
-                        <img class="team-list-images" srcset="./images/rx2.jpg, ./images/r.jpg" src="./images/r.jpg"
+                        <img class="team-list-images" srcset="./images/rx2.jpg 2x, ./images/r.jpg 1x" src="./images/r.jpg"
                             alt="photo" width="264" height="260" />
                         <div class="team-border">
                             <h3 class="team-list-header">Daniel Wilson</h3>
@@ -551,7 +486,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button type="button" class="btn-modal" data-modal-close>
                 <svg class="modal-close-icom" width="8" height="8">
@@ -611,6 +546,68 @@
                 </div>
                 <button type="submit" class="btn-modal-send">Send</button>
             </form>
+        </div>
+    </div>
+    <div class="mob-menu ">
+        <div>
+            <button type="button" class="mob-btn-close">
+                <svg class="mob-btn" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <nav>
+                <ul class="navigation-mob-menu">
+                    <li class="mob-menu-list">
+                        <a class="mob-item-link" href="./index.html">Studio</a>
+                    </li>
+                    <li class="mob-menu-list">
+                        <a class="mob-item-link" href="">Portfolio</a>
+                    </li>
+                    <li class="mob-menu-list">
+                        <a class="mob-item-link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <ul class="mobil-adress-list">
+                <li class="mobil-adress-item">
+                    <a class="mobil-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="mobil-adress-item">
+                    <a class="mobil-adress-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+            <ul class="mobil-soc">
+                <li class="mobil-soc-list">
+                    <a href="https://instagram.com" class="mobil-soc-link">
+                        <svg class="mobil-icon" width="24" height="24">
+                            <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-instagram-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobil-soc-list">
+                    <a href="https://twitter.com" class="mobil-soc-link">
+                        <svg class="mobil-icon" width="24" height="24">
+                            <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobil-soc-list">
+                    <a href="https://facebook.com" class="mobil-soc-link">
+                        <svg class="mobil-icon" width="24" height="24">
+                            <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobil-soc-list">
+                    <a href="https://linkedin.com" class="mobil-soc-link">
+                        <svg class="mobil-icon" width="24" height="24">
+                            <use class="mobil-soc-link-icon" href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
     <script src="./js/modal.js"></script>
