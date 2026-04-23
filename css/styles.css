@@ -194,6 +194,12 @@ h6 {
     pointer-events: none;
 }
 
+.mob-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
 .mob-btn-close {
     display: block;
     margin-left: auto;
@@ -631,6 +637,7 @@ h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -1225,7 +1232,7 @@ h6 {
     }
 
     .container-team {
-        padding: 96px 108px;
+        padding: 0 108px;
     }
 
     .team-list-about {
@@ -1243,10 +1250,6 @@ h6 {
         width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
-    }
-
-    .container-team {
-        padding: 120px 0px;
     }
 
     .team-list-about {
