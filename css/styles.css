@@ -566,6 +566,10 @@ h6 {
     gap: 48px 0px;
 }
 
+.portfolio-box{
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 .container-portfolio {
 
     padding: 32px 16px;
@@ -1044,6 +1048,10 @@ h6 {
         display: none;
     }
 
+    .mob-menu {
+        display: none;
+    }
+
     .navigation-list {
         display: flex;
     }
@@ -1076,6 +1084,10 @@ h6 {
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
+    }
+
+    .mob-menu {
+        display: none;
     }
 
     .header {
@@ -1311,6 +1323,7 @@ h6 {
     }
 
 .portfolio-box {
+    box-shadow: none;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
