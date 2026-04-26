@@ -1268,6 +1268,15 @@ h6 {
         padding-left: 15px;
         padding-right: 15px;
     }
+    
+    .container-team {
+        padding: 0;
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 
     .team-list-about {
         width: calc((100% - 72px) / 4);
